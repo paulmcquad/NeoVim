@@ -1,7 +1,4 @@
-set runtimepath^=~/.vim runtimepath+=~/.vim/after
-let &packpath = &runtimepath
-
-call plug#begin('~/.vim/bundle')
+call plug#begin('~/.config/nvim/bundle')
 
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -29,5 +26,5 @@ Plug 'easymotion/vim-easymotion'
 
 call plug#end()
 "Load custom settings
-source ~/.vim/colors/VimColour.vim
-source ~/.vim/startup/mappings.vim
+source ~/.config/nvim/colors/VimColour.vim
+source ~/.config/nvim/startup/mappings.vim
